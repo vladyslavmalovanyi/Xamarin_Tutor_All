@@ -15,11 +15,9 @@
                HorizontalOptions="Center"/>
         <Button Text="Login"
                 BackgroundColor="#1dabf0"
-                TextColor="White"
-                HeightRequest="30" />
+                TextColor="White" />
         <Button Text="Register"
                 BackgroundColor="#1dabf0"
-                TextColor="White"
-                HeightRequest="30"/>
+                TextColor="White"/>
     </StackLayout>
 </ContentPage>
