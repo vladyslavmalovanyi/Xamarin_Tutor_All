@@ -16,12 +16,10 @@
         <Button Text="Login"
                 BackgroundColor="#1dabf0"
                 TextColor="White"
-                FontSize="10"
                 HeightRequest="30" />
         <Button Text="Register"
                 BackgroundColor="#1dabf0"
                 TextColor="White"
-                FontSize="10"
                 HeightRequest="30"/>
     </StackLayout>
 </ContentPage>
