@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Xamarin_Tutor_All.InstaPage"
+             BackgroundColor="White">
+    <ContentPage.Padding >
+        <OnPlatform x:TypeArguments="Thickness"
+                    iOS="0,20,0,0"
+                    />
+    </ContentPage.Padding>
+    <StackLayout>
+        <StackLayout Padding="10">
+            <Label Text="vladyslavmalovanyi" 
+                   HeightRequest="30"/>
+        </StackLayout>
+        <StackLayout HorizontalOptions="Fill" 
+                     Padding="0">
+            <Image Source="http://lorempixel.com/1920/1080/nature/3/"/>
+            <StackLayout Padding="10" 
+                         Orientation="Horizontal" 
+                         HorizontalOptions="Start" >
+                <Button Text="Like" 
+                        TextColor="#1dabf0" 
+                        BackgroundColor="White"/>
+                <Button Text="Comment" 
+                        TextColor="#1dabf0" 
+                        BackgroundColor="White"/>
+                <Button Text="Share" 
+                        TextColor="#1dabf0" 
+                        BackgroundColor="White"/>
+            </StackLayout>
+        </StackLayout>
+        <StackLayout Padding="10">
+            <BoxView Color="#f0f0f0" 
+                     HeightRequest="1"/>
+            <Label Text="700 Likes" 
+                   FontAttributes="Bold" />
+            <Label Text="Imagination is more important than knowledge. Knowledge is limited. Imagination encircles the world."  />
+        </StackLayout>
+    </StackLayout>
+</ContentPage>
