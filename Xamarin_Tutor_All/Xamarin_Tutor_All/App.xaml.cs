@@ -13,7 +13,7 @@ namespace Xamarin_Tutor_All
 		{
 			InitializeComponent();
 
-			MainPage = new Xamarin_Tutor_All.RelativePage();
+			MainPage = new Xamarin_Tutor_All.GridPage_1();
 		}
 
 		protected override void OnStart ()

@@ -13,16 +13,16 @@
             <RowDefinition Height="*"/>
         </Grid.RowDefinitions>
         <Label Text="1234" Grid.Row="0" Grid.ColumnSpan="3" FontSize="50" HorizontalOptions="Center" TextColor="#fff"/>
-        <Button Text="1" Grid.Row="1" Grid.Column="0" FontSize="30" TextColor="#2828c" BackgroundColor="#fff" BorderRadius="30" IsVisible="True"/>
-        <Button Text="2" Grid.Row="1" Grid.Column="1" FontSize="30" TextColor="#2828c" BackgroundColor="#fff" BorderRadius="30" IsVisible="True"/>
-        <Button Text="3" Grid.Row="1" Grid.Column="2" FontSize="30" TextColor="#2828c" BackgroundColor="#fff" BorderRadius="30" IsVisible="True"/>
-        <Button Text="4" Grid.Row="2" Grid.Column="0" FontSize="30" TextColor="#2828c" BackgroundColor="#fff" BorderRadius="30" IsVisible="True"/>
-        <Button Text="5" Grid.Row="2" Grid.Column="1" FontSize="30" TextColor="#2828c" BackgroundColor="#fff" BorderRadius="30" IsVisible="True"/>
-        <Button Text="6" Grid.Row="2" Grid.Column="2" FontSize="30" TextColor="#2828c" BackgroundColor="#fff" BorderRadius="30" IsVisible="True"/>
-        <Button Text="7" Grid.Row="3" Grid.Column="0" FontSize="30" TextColor="#2828c" BackgroundColor="#fff" BorderRadius="30" IsVisible="True"/>
-        <Button Text="8" Grid.Row="3" Grid.Column="1" FontSize="30" TextColor="#2828c" BackgroundColor="#fff" BorderRadius="30" IsVisible="True"/>
-        <Button Text="9" Grid.Row="3" Grid.Column="2" FontSize="30" TextColor="#2828c" BackgroundColor="#fff" BorderRadius="30" IsVisible="True"/>
-        <Button Text="0" Grid.Row="4" Grid.Column="1" FontSize="30" TextColor="#2828c" BackgroundColor="#fff" BorderRadius="30" IsVisible="True"/>
+        <Button Text="1" Grid.Row="1" Grid.Column="0" FontSize="30" TextColor="#2828c" BackgroundColor="#fff" BorderRadius="30" />
+        <Button Text="2" Grid.Row="1" Grid.Column="1" FontSize="30" TextColor="#2828c" BackgroundColor="#fff" BorderRadius="30" />
+        <Button Text="3" Grid.Row="1" Grid.Column="2" FontSize="30" TextColor="#2828c" BackgroundColor="#fff" BorderRadius="30" />
+        <Button Text="4" Grid.Row="2" Grid.Column="0" FontSize="30" TextColor="#2828c" BackgroundColor="#fff" BorderRadius="30" />
+        <Button Text="5" Grid.Row="2" Grid.Column="1" FontSize="30" TextColor="#2828c" BackgroundColor="#fff" BorderRadius="30" />
+        <Button Text="6" Grid.Row="2" Grid.Column="2" FontSize="30" TextColor="#2828c" BackgroundColor="#fff" BorderRadius="30" />
+        <Button Text="7" Grid.Row="3" Grid.Column="0" FontSize="30" TextColor="#2828c" BackgroundColor="#fff" BorderRadius="30" />
+        <Button Text="8" Grid.Row="3" Grid.Column="1" FontSize="30" TextColor="#2828c" BackgroundColor="#fff" BorderRadius="30" />
+        <Button Text="9" Grid.Row="3" Grid.Column="2" FontSize="30" TextColor="#2828c" BackgroundColor="#fff" BorderRadius="30" />
+        <Button Text="0" Grid.Row="4" Grid.Column="1" FontSize="30" TextColor="#2828c" BackgroundColor="#fff" BorderRadius="30" />
         <Button Text="Dial" Grid.Row="5" Grid.ColumnSpan="3" BackgroundColor="GreenYellow" BorderRadius="30"/>
 
     </Grid>
